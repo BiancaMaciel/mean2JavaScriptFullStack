@@ -1,0 +1,11 @@
+<ul class="my-list" >
+	<li class="my-list-item" *ngFor="let item of myList" >
+		<button class="remove-button" (click)="removeItem(item)" >X</button>
+		<h1>
+			<a routerLink="/cursos/{{item._id}}"> 
+					{{item.name}}
+			</a>
+		</h1>
+		<h2>{{item.category}}</h2>
+	</li>
+</ul>

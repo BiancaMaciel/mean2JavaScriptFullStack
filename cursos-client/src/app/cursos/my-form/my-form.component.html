@@ -1,0 +1,21 @@
+<form class="my-form" >
+	<div class="form-line" >
+		<label for="name" class="form-label" >
+			Nome:
+		</label>
+		<input type="text" id="name" [(ngModel)]="newItem.name" name="name" />
+	</div>
+	<div class="form-line" >
+		<label for="price" class="form-label" >
+			Preço:
+		</label>
+		<input type="text" id="price" [(ngModel)]="newItem.price" name="price" />
+	</div>
+	<div class="form-line" >
+		<label for="category" class="form-label" >
+			Categoria:
+		</label>
+		<input type="text" id="category" [(ngModel)]="newItem.category" name="category" />
+	</div>
+	<button (click)="createItem()" >Criar</button>
+</form>

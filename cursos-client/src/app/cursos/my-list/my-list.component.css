@@ -1,0 +1,14 @@
+.my-list{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.my-list-item{
+	border: 1px solid black;
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+
